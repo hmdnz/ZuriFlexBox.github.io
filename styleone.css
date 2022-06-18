@@ -1,0 +1,62 @@
+:root {
+  --cardWidth: 300px;
+  --cardHeight: 335px;
+  --cardMargin: 0px;
+  --cardPadding:35px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: [Lexend Deca]("https://fonts.google.com/specimen/Lexend+Deca");
+  width: 100%;
+  font-weight: 400;
+  background: hsla(0, 0%, 100%, 0.75);
+}
+.main-section {
+  display: flex;
+  /* hsl(0, 0%, 95%) */
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 25%;
+  left: 17%;
+}
+.card {
+  width: var(--cardWidth);
+  height: var(--cardHeight);
+  margin: var(--cardMargin);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: var(--cardPadding);
+}
+img{
+  margin-bottom: 25px;
+
+}
+.cardtitle{
+  color:white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family:[Big Shoulders Display]("https://fonts.google.com/specimen/Big+Shoulders+Display");
+}
+.cardtext{
+  color:white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  /* text-transform: lowercase; */
+
+}
+.btn{
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 800;
+
+}
